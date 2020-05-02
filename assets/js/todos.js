@@ -26,6 +26,17 @@ $(".fa-plus").click(function(){
   $("input").fadeToggle();
 });
 
+
+
+
+$("ul").sortable( {
+  cursor: 'move'
+});
+
+
+
+
+/*
 // Dragging and Dropping Todos
 var dragSrc = null;
 var draghtml = null;
@@ -53,3 +64,4 @@ $("li").on("drop", function(){
   $(this).css("fontSize","100px");
   console.log($(this).dataTransfer.getData('text/html'));
 });
+*/
