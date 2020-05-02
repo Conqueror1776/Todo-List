@@ -33,7 +33,10 @@ $("ul").sortable( {
   cursor: 'move'
 });
 
-
+$("#container").draggable( {
+  cursor: 'move',
+  snap: false
+});
 
 
 /*
